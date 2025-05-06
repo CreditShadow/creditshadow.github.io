@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>SHADOW PRIME CREDIT</title>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<img alt="Logo SHADOW PRIME" id="logo" src="assets/SP.png"/>
+<h1>SHADOW PRIME CREDIT</h1>
+</header>
+<main>
+<section id="planos">
+<h2>Escolha seu Plano:</h2>
+<!-- Planos serão adicionados aqui -->
+</section>
+<section id="pagamento" style="display: none;">
+<h2>Pagamento</h2>
+<div id="qrcode-container">
+<!-- QR Code será exibido aqui -->
+</div>
+<div id="chave-pix-container">
+<p>Ou pague com a chave Pix:</p>
+<input id="chave-pix" readonly="" type="text"/>
+<button id="copiar-chave">Copiar Chave</button>
+</div>
+<p>Após o pagamento, seu cartão virtual será gerado.</p>
+</section>
+<section id="cartao-virtual" style="display: none;">
+<h2>Seu Cartão Virtual</h2>
+<div id="cartao-container">
+<img alt="Cartão de Crédito" id="cartao-img" src="assets/CREDIT.png"/>
+<div id="cartao-numero">XXXX XXXX XXXX XXXX</div>
+<div id="cartao-validade">MM/AA</div>
+<div id="cartao-cvv">CVV</div>
+<img alt="Logo no Cartão" id="cartao-logo" src="assets/SP.png"/>
+</div>
+</section>
+</main>
+<footer>
+<p>© 2025 SHADOW PRIME CREDIT. Todos os direitos reservados.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
